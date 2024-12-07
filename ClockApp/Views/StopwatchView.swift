@@ -27,15 +27,8 @@ struct StopwatchView: View {
                         .background(Color.green, in: Circle())
                     
                 }
-                Text("_________________________________________")
-                    .foregroundStyle(Color.gray)
-                HStack{
-                    Text("Lap 1")
-                    Spacer()
-                    Text("00:02.01")
-                }
-                .padding()
-                
+                LapView(lapNumber: 1, lapTime: "00:02.01")
+                LapView(lapNumber: 2, lapTime: "00:03.07")
                 
                 Spacer()
             }
@@ -46,3 +39,4 @@ struct StopwatchView: View {
 #Preview {
     LandingView()
 }
+

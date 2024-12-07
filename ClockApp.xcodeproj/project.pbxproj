@@ -16,6 +16,7 @@
 		319DC0762D038930006CD130 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0752D038930006CD130 /* StopwatchView.swift */; };
 		319DC0782D03958F006CD130 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0772D03958F006CD130 /* CityView.swift */; };
 		319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0792D049AAD006CD130 /* AlarmTimeView.swift */; };
+		31FF539E2D04A4500018627A /* LapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF539D2D04A4500018627A /* LapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		319DC0752D038930006CD130 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 		319DC0772D03958F006CD130 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		319DC0792D049AAD006CD130 /* AlarmTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTimeView.swift; sourceTree = "<group>"; };
+		31FF539D2D04A4500018627A /* LapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				319DC0732D038927006CD130 /* AlarmsView.swift */,
 				319DC0792D049AAD006CD130 /* AlarmTimeView.swift */,
 				319DC0752D038930006CD130 /* StopwatchView.swift */,
+				31FF539D2D04A4500018627A /* LapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FF539E2D04A4500018627A /* LapView.swift in Sources */,
 				319DC06C2D03880E006CD130 /* ClockAppApp.swift in Sources */,
 				319DC0782D03958F006CD130 /* CityView.swift in Sources */,
 				319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */,
