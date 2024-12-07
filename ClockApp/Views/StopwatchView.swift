@@ -11,6 +11,7 @@ struct StopwatchView: View {
     var body: some View {
         NavigationStack{
             VStack{
+
                 Spacer()
                 Text("00:16.68")
                     .font(.system(size: 90, weight: .thin, design: .default))
