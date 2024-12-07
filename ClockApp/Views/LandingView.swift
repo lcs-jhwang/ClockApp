@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        TabView(selection: Binding.constant(2)) {
+        TabView(selection: Binding.constant(3)) {
             
             WorldClockView()
                 .tabItem {
