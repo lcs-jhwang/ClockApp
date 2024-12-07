@@ -9,10 +9,17 @@ import SwiftUI
 
 struct AlarmsView: View {
     var body: some View {
-        Text("Alarms")
+        NavigationStack{
+            VStack{
+                AlarmTimeView(alarmTime: "7:30", amOrPm: "AM")
+                AlarmTimeView(alarmTime: "8:30", amOrPm: "PM")
+            }
+                .navigationTitle("Alarms")
+        }
     }
 }
 
 #Preview {
-    AlarmsView()
+    LandingView()
 }
+

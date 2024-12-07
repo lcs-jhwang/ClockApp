@@ -15,6 +15,7 @@
 		319DC0742D038927006CD130 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0732D038927006CD130 /* AlarmsView.swift */; };
 		319DC0762D038930006CD130 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0752D038930006CD130 /* StopwatchView.swift */; };
 		319DC0782D03958F006CD130 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0772D03958F006CD130 /* CityView.swift */; };
+		319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0792D049AAD006CD130 /* AlarmTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		319DC0732D038927006CD130 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		319DC0752D038930006CD130 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 		319DC0772D03958F006CD130 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		319DC0792D049AAD006CD130 /* AlarmTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				319DC0712D03891A006CD130 /* WorldClockView.swift */,
 				319DC0772D03958F006CD130 /* CityView.swift */,
 				319DC0732D038927006CD130 /* AlarmsView.swift */,
+				319DC0792D049AAD006CD130 /* AlarmTimeView.swift */,
 				319DC0752D038930006CD130 /* StopwatchView.swift */,
 			);
 			path = Views;
@@ -162,6 +165,7 @@
 			files = (
 				319DC06C2D03880E006CD130 /* ClockAppApp.swift in Sources */,
 				319DC0782D03958F006CD130 /* CityView.swift in Sources */,
+				319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */,
 				319DC0762D038930006CD130 /* StopwatchView.swift in Sources */,
 				319DC0722D03891A006CD130 /* WorldClockView.swift in Sources */,
 				319DC0742D038927006CD130 /* AlarmsView.swift in Sources */,
