@@ -54,8 +54,6 @@ struct AlarmsView: View {
         }
     }
 }
-
 #Preview {
     LandingView()
 }
-
