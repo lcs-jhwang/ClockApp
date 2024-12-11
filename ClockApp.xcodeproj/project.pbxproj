@@ -17,6 +17,7 @@
 		319DC0782D03958F006CD130 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0772D03958F006CD130 /* CityView.swift */; };
 		319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319DC0792D049AAD006CD130 /* AlarmTimeView.swift */; };
 		31FF539E2D04A4500018627A /* LapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF539D2D04A4500018627A /* LapView.swift */; };
+		31FF53B42D0910DA0018627A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF53B32D0910D60018627A /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		319DC0772D03958F006CD130 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		319DC0792D049AAD006CD130 /* AlarmTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTimeView.swift; sourceTree = "<group>"; };
 		31FF539D2D04A4500018627A /* LapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapView.swift; sourceTree = "<group>"; };
+		31FF53B32D0910D60018627A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				319DC0692D03880E006CD130 /* ClockAppApp.swift */,
+				31FF53B22D0910230018627A /* City */,
 				319DC0702D038877006CD130 /* Views */,
 				319DC0672D03880E006CD130 /* Preview Content */,
 			);
@@ -91,6 +94,14 @@
 				31FF539D2D04A4500018627A /* LapView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		31FF53B22D0910230018627A /* City */ = {
+			isa = PBXGroup;
+			children = (
+				31FF53B32D0910D60018627A /* City.swift */,
+			);
+			path = City;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				31FF539E2D04A4500018627A /* LapView.swift in Sources */,
 				319DC06C2D03880E006CD130 /* ClockAppApp.swift in Sources */,
+				31FF53B42D0910DA0018627A /* City.swift in Sources */,
 				319DC0782D03958F006CD130 /* CityView.swift in Sources */,
 				319DC07A2D049AAD006CD130 /* AlarmTimeView.swift in Sources */,
 				319DC0762D038930006CD130 /* StopwatchView.swift in Sources */,

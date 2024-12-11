@@ -11,25 +11,24 @@ import SwiftUI
 struct CityView: View {
     
     //Mark: Stored properties
-    let timeZoneOffSet: String
-    let city: String
-    let time: String
-    let amOrPm: String
+    let providedCity: City
     
     var body: some View {
         HStack {
             //Left Side
             VStack {
-                Text("Today, \(timeZoneOffSet)HRS")
-                Text(city)
+                Text("Today, \(providedCity.timeZoneOffSet)HRS")
+                Text(providedCity.city)
+                    .lineLimit(0)
+                    .minimumScaleFactor(0.5)
                     .font(.system(.largeTitle, design: .default, weight: .thin))
             }
             Spacer()
             
             //Right side
-            Text (time)
+            Text (providedCity.time)
                 .font(.system(size: 64.8, weight: .thin, design: .default))
-            Text (amOrPm)
+            Text (providedCity.amOrPm)
                 .font(.system(.largeTitle, design: .default, weight: .thin))
         }
         
@@ -39,4 +38,9 @@ struct CityView: View {
         
         
     }
+}
+
+#Preview {
+    CityView(providedCity: ottawa)
+        .padding(30)
 }
